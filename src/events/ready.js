@@ -59,7 +59,7 @@ export default {
             channelId: channel.id,
             guildId: guild.id,
             adapterCreator: guild.voiceAdapterCreator,
-            selfDeaf: true,
+            selfDeaf: false,
           });
 
           startupLog(
