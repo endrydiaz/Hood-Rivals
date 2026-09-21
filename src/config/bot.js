@@ -9,9 +9,9 @@ export const botConfig = {
   // - "idle"      = yellow moon
   // - "dnd"       = red do-not-disturb
   // - "invisible" = appears offline
-  presence: {
+  presence: {Hood-Rivals
     // Current online state shown on Discord.
-    status: "online",
+    status: "dnd",
 
     // Activity lines shown under the bot name.
     // `type` number mapping from Discord:
@@ -24,8 +24,8 @@ export const botConfig = {
     activities: [
       {
         name: "Custom Status", // required by Discord API, not shown in the client
-        state: "stalking",     // this is what people actually see
-        type: 4,               // Custom
+        state: "looking Over Hood Rivals",     // this is what people actually see
+        type: 0,               // Custom
       },
     ],
   },
