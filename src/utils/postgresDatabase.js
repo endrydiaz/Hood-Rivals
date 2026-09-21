@@ -658,6 +658,7 @@ class PostgreSQLDatabase {
                     };
                 }
                 
+                }
                 case 'economy': {
                     const economyResult = await this.pool.query(
                         `SELECT balance, bank, data FROM ${pgConfig.tables.economy} WHERE guild_id = $1 AND user_id = $2`,
